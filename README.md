@@ -1,7 +1,3 @@
-Got it! Here’s your README.md text exactly in your style and format, personalized for your 3-tier app on Windows with VS Code terminal:
-
----
-
 # 3-Tier Architecture
 
 I set up a 3-tier application using:
@@ -95,17 +91,14 @@ docker ps
 Testing the setup:
 
 * Frontend accessed on `http://localhost` showing the static page
-![3-Tier Architecture](architecture.png)
+![3-Tier Architecture](frontend.png)
 
 * Backend API accessed on `http://localhost:5000/api/users` returning JSON data
-  ![3-Tier Architecture](architecture.png)
+  ![3-Tier Architecture](backend.png)
 
 * MySQL database running on port 3307
-![3-Tier Architecture](architecture.png)
+![3-Tier Architecture](database.png)
 
 ---
 
 This is how I successfully set up the 3-tier app using Docker on Windows with VS Code terminal.
-
----
-
