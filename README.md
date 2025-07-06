@@ -91,12 +91,18 @@ docker ps
 Testing the setup:
 
 * Frontend accessed on `http://localhost` showing the static page
+
+  
 ![3-Tier Architecture](frontend.png)
 
 * Backend API accessed on `http://localhost:5000/api/users` returning JSON data
+
+  
   ![3-Tier Architecture](backend.png)
 
 * MySQL database running on port 3307
+
+  
 ![3-Tier Architecture](database.png)
 
 ---
