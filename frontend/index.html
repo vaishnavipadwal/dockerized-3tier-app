@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3-tier app frontend</title>
+</head>
+<body>
+  <h1>Welcome to the 3-tier App Frontend</h1>
+  <p>It talks to backend API for data.</p>
+  <script>
+    fetch('/api/users')
+      .then(response => response.json())
+      .then(data => {
+        const pre = document.createElement('pre');
+        pre.textContent = JSON.stringify(data, null, 2);
+        document.body.appendChild(pre);
+      })
+      .catch(err => console.error('Error fetching API:', err));
+  </script>
+</body>
+</html>
