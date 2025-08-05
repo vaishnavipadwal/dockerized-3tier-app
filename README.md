@@ -1,10 +1,9 @@
-# 3-Tier Architecture
+# Dockerized 3-Tier Application | Node.js, Nginx, MySQL
 
 I set up a 3-tier application using:
-
-Frontend: Nginx (HTML)
-Backend: Node.js (Express)
-Database: MySQL
+- Frontend: Nginx (HTML)
+- Backend: Node.js (Express)
+- Database: MySQL
 
 Steps:
 I created the project folder on my Windows desktop named `3tier-app`, which includes frontend, backend, and db folders.
